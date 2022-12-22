@@ -1,0 +1,40 @@
+C:\Users\Ahmet\Desktop\SELTEM-Kutuphane-Otomasyonu-master\SELTEM Kütüphane Otomasyonu,\obj\Debug\SELTEM Kütüphane Otomasyonu,.csprojAssemblyReference.cache
+C:\Users\Ahmet\Desktop\SELTEM-Kutuphane-Otomasyonu-master\SELTEM Kütüphane Otomasyonu,\obj\Debug\SELTEM_Kütüphane_Otomasyonu_.Form1.resources
+C:\Users\Ahmet\Desktop\SELTEM-Kutuphane-Otomasyonu-master\SELTEM Kütüphane Otomasyonu,\obj\Debug\SELTEM_Kütüphane_Otomasyonu_.Kitapişlemleri.resources
+C:\Users\Ahmet\Desktop\SELTEM-Kutuphane-Otomasyonu-master\SELTEM Kütüphane Otomasyonu,\obj\Debug\SELTEM_Kütüphane_Otomasyonu_.Properties.Resources.resources
+C:\Users\Ahmet\Desktop\SELTEM-Kutuphane-Otomasyonu-master\SELTEM Kütüphane Otomasyonu,\obj\Debug\SELTEM_Kütüphane_Otomasyonu_.ödünçkitaplar.resources
+C:\Users\Ahmet\Desktop\SELTEM-Kutuphane-Otomasyonu-master\SELTEM Kütüphane Otomasyonu,\obj\Debug\SELTEM_Kütüphane_Otomasyonu_.üyeislemleri.resources
+C:\Users\Ahmet\Desktop\SELTEM-Kutuphane-Otomasyonu-master\SELTEM Kütüphane Otomasyonu,\obj\Debug\SELTEM_Kütüphane_Otomasyonu_.İşlem_Paneli.resources
+C:\Users\Ahmet\Desktop\SELTEM-Kutuphane-Otomasyonu-master\SELTEM Kütüphane Otomasyonu,\obj\Debug\SELTEM Kütüphane Otomasyonu,.csproj.GenerateResource.cache
+C:\Users\Ahmet\Desktop\SELTEM-Kutuphane-Otomasyonu-master\SELTEM Kütüphane Otomasyonu,\obj\Debug\SELTEM Kütüphane Otomasyonu,.exe.licenses
+C:\Users\Ahmet\Desktop\SELTEM-Kutuphane-Otomasyonu-master\SELTEM Kütüphane Otomasyonu,\bin\Debug\SELTEM Kütüphane Otomasyonu,.exe.config
+C:\Users\Ahmet\Desktop\SELTEM-Kutuphane-Otomasyonu-master\SELTEM Kütüphane Otomasyonu,\bin\Debug\SELTEM Kütüphane Otomasyonu,.exe
+C:\Users\Ahmet\Desktop\SELTEM-Kutuphane-Otomasyonu-master\SELTEM Kütüphane Otomasyonu,\bin\Debug\SELTEM Kütüphane Otomasyonu,.pdb
+C:\Users\Ahmet\Desktop\SELTEM-Kutuphane-Otomasyonu-master\SELTEM Kütüphane Otomasyonu,\bin\Debug\EntityFramework.dll
+C:\Users\Ahmet\Desktop\SELTEM-Kutuphane-Otomasyonu-master\SELTEM Kütüphane Otomasyonu,\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ahmet\Desktop\SELTEM-Kutuphane-Otomasyonu-master\SELTEM Kütüphane Otomasyonu,\bin\Debug\EntityFramework.xml
+C:\Users\Ahmet\Desktop\SELTEM-Kutuphane-Otomasyonu-master\SELTEM Kütüphane Otomasyonu,\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ahmet\Desktop\SELTEM-Kutuphane-Otomasyonu-master\SELTEM Kütüphane Otomasyonu,\obj\Debug\SELTEM Kütüphane Otomasyonu,.csproj.CoreCompileInputs.cache
+C:\Users\Ahmet\Desktop\SELTEM-Kutuphane-Otomasyonu-master\SELTEM Kütüphane Otomasyonu,\obj\Debug\SELTEM Kütüphane Otomasyonu,.csproj.CopyComplete
+C:\Users\Ahmet\Desktop\SELTEM-Kutuphane-Otomasyonu-master\SELTEM Kütüphane Otomasyonu,\obj\Debug\SELTEM Kütüphane Otomasyonu,.exe
+C:\Users\Ahmet\Desktop\SELTEM-Kutuphane-Otomasyonu-master\SELTEM Kütüphane Otomasyonu,\obj\Debug\SELTEM Kütüphane Otomasyonu,.pdb
+C:\Users\Mahmut\Desktop\SELTEM-Kutuphane-Otomasyonu-master\SELTEM Kütüphane Otomasyonu,\bin\Debug\SELTEM Kütüphane Otomasyonu,.exe.config
+C:\Users\Mahmut\Desktop\SELTEM-Kutuphane-Otomasyonu-master\SELTEM Kütüphane Otomasyonu,\bin\Debug\SELTEM Kütüphane Otomasyonu,.exe
+C:\Users\Mahmut\Desktop\SELTEM-Kutuphane-Otomasyonu-master\SELTEM Kütüphane Otomasyonu,\bin\Debug\SELTEM Kütüphane Otomasyonu,.pdb
+C:\Users\Mahmut\Desktop\SELTEM-Kutuphane-Otomasyonu-master\SELTEM Kütüphane Otomasyonu,\bin\Debug\EntityFramework.dll
+C:\Users\Mahmut\Desktop\SELTEM-Kutuphane-Otomasyonu-master\SELTEM Kütüphane Otomasyonu,\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Mahmut\Desktop\SELTEM-Kutuphane-Otomasyonu-master\SELTEM Kütüphane Otomasyonu,\bin\Debug\EntityFramework.xml
+C:\Users\Mahmut\Desktop\SELTEM-Kutuphane-Otomasyonu-master\SELTEM Kütüphane Otomasyonu,\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Mahmut\Desktop\SELTEM-Kutuphane-Otomasyonu-master\SELTEM Kütüphane Otomasyonu,\obj\Debug\SELTEM Kütüphane Otomasyonu,.csprojAssemblyReference.cache
+C:\Users\Mahmut\Desktop\SELTEM-Kutuphane-Otomasyonu-master\SELTEM Kütüphane Otomasyonu,\obj\Debug\SELTEM_Kütüphane_Otomasyonu_.Form1.resources
+C:\Users\Mahmut\Desktop\SELTEM-Kutuphane-Otomasyonu-master\SELTEM Kütüphane Otomasyonu,\obj\Debug\SELTEM_Kütüphane_Otomasyonu_.Kitapişlemleri.resources
+C:\Users\Mahmut\Desktop\SELTEM-Kutuphane-Otomasyonu-master\SELTEM Kütüphane Otomasyonu,\obj\Debug\SELTEM_Kütüphane_Otomasyonu_.Properties.Resources.resources
+C:\Users\Mahmut\Desktop\SELTEM-Kutuphane-Otomasyonu-master\SELTEM Kütüphane Otomasyonu,\obj\Debug\SELTEM_Kütüphane_Otomasyonu_.ödünçkitaplar.resources
+C:\Users\Mahmut\Desktop\SELTEM-Kutuphane-Otomasyonu-master\SELTEM Kütüphane Otomasyonu,\obj\Debug\SELTEM_Kütüphane_Otomasyonu_.üyeislemleri.resources
+C:\Users\Mahmut\Desktop\SELTEM-Kutuphane-Otomasyonu-master\SELTEM Kütüphane Otomasyonu,\obj\Debug\SELTEM_Kütüphane_Otomasyonu_.İşlem_Paneli.resources
+C:\Users\Mahmut\Desktop\SELTEM-Kutuphane-Otomasyonu-master\SELTEM Kütüphane Otomasyonu,\obj\Debug\SELTEM Kütüphane Otomasyonu,.csproj.GenerateResource.cache
+C:\Users\Mahmut\Desktop\SELTEM-Kutuphane-Otomasyonu-master\SELTEM Kütüphane Otomasyonu,\obj\Debug\SELTEM Kütüphane Otomasyonu,.exe.licenses
+C:\Users\Mahmut\Desktop\SELTEM-Kutuphane-Otomasyonu-master\SELTEM Kütüphane Otomasyonu,\obj\Debug\SELTEM Kütüphane Otomasyonu,.csproj.CoreCompileInputs.cache
+C:\Users\Mahmut\Desktop\SELTEM-Kutuphane-Otomasyonu-master\SELTEM Kütüphane Otomasyonu,\obj\Debug\SELTEM Kütüphane Otomasyonu,.csproj.CopyComplete
+C:\Users\Mahmut\Desktop\SELTEM-Kutuphane-Otomasyonu-master\SELTEM Kütüphane Otomasyonu,\obj\Debug\SELTEM Kütüphane Otomasyonu,.exe
+C:\Users\Mahmut\Desktop\SELTEM-Kutuphane-Otomasyonu-master\SELTEM Kütüphane Otomasyonu,\obj\Debug\SELTEM Kütüphane Otomasyonu,.pdb

@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Kutuphane_OtomasyonuModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="genel_kayitlar_1">
+    <Key>
+      <PropertyRef Name="kayit_id" />
+    </Key>
+    <Property Name="kayit_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="kullanici_id" Type="Int32" />
+    <Property Name="kitap_id" Type="Int32" />
+    <Property Name="alis_tarihi" Type="DateTime" Precision="3" />
+    <Property Name="son_tarih" Type="DateTime" Precision="3" />
+    <Property Name="durum" Type="Boolean" />
+    <NavigationProperty Name="Kitaplar" Relationship="Self.FK_genel_kayitlar_1_Kitaplar" FromRole="genel_kayitlar_1" ToRole="Kitaplar" />
+    <NavigationProperty Name="üyeler_1" Relationship="Self.FK_genel_kayitlar_1_üyeler_1" FromRole="genel_kayitlar_1" ToRole="üyeler_1" />
+  </EntityType>
+  <EntityType Name="Kitaplar">
+    <Key>
+      <PropertyRef Name="kitap_barkod" />
+    </Key>
+    <Property Name="kitap_barkod" Type="Int32" Nullable="false" />
+    <Property Name="kitap_ad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="kitap_yazar" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="kitap_yayınevi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="kitap_sayfasayısı" Type="Int32" />
+    <Property Name="kitap_basımtarihi" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="genel_kayitlar_1" Relationship="Self.FK_genel_kayitlar_1_Kitaplar" FromRole="Kitaplar" ToRole="genel_kayitlar_1" />
+  </EntityType>
+  <EntityType Name="Personeller">
+    <Key>
+      <PropertyRef Name="Personel_id" />
+    </Key>
+    <Property Name="Personel_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Personel_ad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Personel_soyad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Personel_tc" Type="String" MaxLength="11" FixedLength="false" Unicode="true" />
+    <Property Name="Personel_mail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="personel_tel" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
+    <Property Name="Personel_kullaniciadi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Personel_sifre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="üyeler_1">
+    <Key>
+      <PropertyRef Name="üye_no" />
+    </Key>
+    <Property Name="üye_no" Type="Int32" Nullable="false" />
+    <Property Name="üye_adsoyad" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="üye_sınıf" Type="Int32" />
+    <Property Name="üye_cinsiyet" Type="String" MaxLength="1" FixedLength="false" Unicode="true" />
+    <Property Name="üye_gsm" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="üye_eposta" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="üye_eposta_türü" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="genel_kayitlar_1" Relationship="Self.FK_genel_kayitlar_1_üyeler_1" FromRole="üyeler_1" ToRole="genel_kayitlar_1" />
+  </EntityType>
+  <Association Name="FK_genel_kayitlar_1_Kitaplar">
+    <End Role="Kitaplar" Type="Self.Kitaplar" Multiplicity="0..1" />
+    <End Role="genel_kayitlar_1" Type="Self.genel_kayitlar_1" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Kitaplar">
+        <PropertyRef Name="kitap_barkod" />
+      </Principal>
+      <Dependent Role="genel_kayitlar_1">
+        <PropertyRef Name="kitap_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_genel_kayitlar_1_üyeler_1">
+    <End Role="üyeler_1" Type="Self.üyeler_1" Multiplicity="0..1" />
+    <End Role="genel_kayitlar_1" Type="Self.genel_kayitlar_1" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="üyeler_1">
+        <PropertyRef Name="üye_no" />
+      </Principal>
+      <Dependent Role="genel_kayitlar_1">
+        <PropertyRef Name="kullanici_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Kutuphane_OtomasyonuEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="genel_kayitlar_1" EntityType="Self.genel_kayitlar_1" />
+    <EntitySet Name="Kitaplar" EntityType="Self.Kitaplar" />
+    <EntitySet Name="Personeller" EntityType="Self.Personeller" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="üyeler_1" EntityType="Self.üyeler_1" />
+    <AssociationSet Name="FK_genel_kayitlar_1_Kitaplar" Association="Self.FK_genel_kayitlar_1_Kitaplar">
+      <End Role="Kitaplar" EntitySet="Kitaplar" />
+      <End Role="genel_kayitlar_1" EntitySet="genel_kayitlar_1" />
+    </AssociationSet>
+    <AssociationSet Name="FK_genel_kayitlar_1_üyeler_1" Association="Self.FK_genel_kayitlar_1_üyeler_1">
+      <End Role="üyeler_1" EntitySet="üyeler_1" />
+      <End Role="genel_kayitlar_1" EntitySet="genel_kayitlar_1" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
